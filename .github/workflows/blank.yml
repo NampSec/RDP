@@ -40,11 +40,11 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://github.com/NampSec/RDP/blob/master/Files/NGROK-US.bat -OutFile NGROK-US.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/NampSec/RDP/master/Files/NGROK-US.bat -OutFile NGROK-US.bat
 
-        Invoke-WebRequest https://github.com/NampSec/RDP/blob/master/Files/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/NampSec/RDP/master/Files/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
 
-        Invoke-WebRequest https://github.com/NampSec/RDP/blob/master/Files/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/NampSec/RDP/master/Files/loop.bat -OutFile loop.bat
 
     - name: Make YML file for NGROK.
 
