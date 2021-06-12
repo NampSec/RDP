@@ -16,7 +16,7 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://raw.githubusercontent.com/NampSec/RDP/master/Files/ngrok.exe -OutFile ngrok.exe
+        Invoke-WebRequest https://github.com/NampSec/RDP/releases/download/1.0/ngrok.exe -OutFile ngrok.exe
 
         Invoke-WebRequest https://raw.githubusercontent.com/NampSec/RDP/master/Files/nssm.exe -OutFile nssm.exe
 
